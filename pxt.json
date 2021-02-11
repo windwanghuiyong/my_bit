@@ -1,0 +1,27 @@
+{
+    "name": "my_bit",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "SuperBit": "github:lzty634158/superbit#0a0d6cd2c18804f6b56e944d0c7ff7bd91473ec8",
+        "OmniBit": "github:lzty634158/omnibit#21c29d255327798ea59b4e2a870ae219d3901af6",
+        "Croco-Kit": "github:iiqaqii/croco-kit#e8601abd01aba17b42252a9f00c3e883c5722d48",
+        "GestureRecognition": "github:yahboomtechnology/gr#a2c63e2c51e1e0360ed440fb54f9c49c2744bc83",
+        "Speech": "github:yahboomtechnology/speech#2ad3cf29dfd604613a82e3044fc4b93966c3f5e4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
